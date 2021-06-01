@@ -30,9 +30,9 @@ class WifiTriangulationActivity : AppCompatActivity() {
 //            return
 //        }
 
-        val rttManager = this.getSystemService(Context.WIFI_RTT_RANGING_SERVICE)
-        Log.v("Samuel", "Rtt manager exists ${applicationContext.javaClass.name}")
-        Log.v("Samuel", "Class type: ${rttManager is WifiRttManager}")
+//        val rttManager = this.getSystemService(Context.WIFI_RTT_RANGING_SERVICE)
+//        Log.v("Samuel", "Rtt manager exists ${applicationContext.javaClass.name}")
+//        Log.v("Samuel", "Class type: ${rttManager is WifiRttManager}")
 
 //        // step 2: Check whether WIFI RTT is available
 //        val filter = IntentFilter(WifiRttManager.ACTION_WIFI_RTT_STATE_CHANGED)
